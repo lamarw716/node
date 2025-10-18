@@ -34,3 +34,4 @@ else:
       if python_cmd_path and 'pyenv/shims' not in python_cmd_path:
         sys.stderr.write('\t{} {}\n'.format(python_cmd_path, ' '.join(sys.argv[:1])))
   sys.exit(1)
+
